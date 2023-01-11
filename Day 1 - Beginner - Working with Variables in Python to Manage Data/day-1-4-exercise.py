@@ -1,11 +1,14 @@
 a = input("a:")
 b = input("b:")
 
-c = b
-d = a
+c = a
+a = b
+b = c
 
-a = c
-b = d
+# d = a
+#
+# a = c
+# b = d
 
 
 print("a = " + a)
